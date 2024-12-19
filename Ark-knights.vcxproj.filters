@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyXPng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="episode1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="episode2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="episode3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_12.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_13.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_14.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_15.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_16.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_17.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_18.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_19.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_20.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_21.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_22.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_23.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_24.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_25.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_26.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_27.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_28.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_29.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_30.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_00.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_01.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_03.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_04.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_05.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_06.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_07.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_08.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_09.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_9.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_10.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_12.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

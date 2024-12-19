@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1542a549-856a-4304-acf0-91ef27b6853c}</ProjectGuid>
+    <RootNamespace>Arkknights</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BOSS.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="EasyXPng.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="episode1.h" />
+    <ClInclude Include="episode2.h" />
+    <ClInclude Include="episode3.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Dusk\夕-默认-基建-Move-x1_0.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_01.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_02.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_03.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_04.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_05.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_06.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_07.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_08.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_09.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_1.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_10.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_11.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_12.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_13.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_14.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_15.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_16.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_17.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_18.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_19.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_2.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_20.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_21.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_22.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_23.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_24.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_25.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_26.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_27.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_28.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_29.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_3.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_30.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_4.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_5.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_6.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_7.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_8.png" />
+    <Image Include="Dusk\夕-默认-基建-Move-x1_9.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_0.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_00.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_01.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_02.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_03.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_04.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_05.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_06.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_07.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_08.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_09.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_1.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_10.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_11.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_12.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_2.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_3.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_4.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_5.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_6.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_7.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_8.png" />
+    <Image Include="Dusk\夕-默认-正面-Attack-x1_9.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
